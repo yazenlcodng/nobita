@@ -209,8 +209,12 @@ Shopify.routes.root = "/";</script>
         --color-badge-background: 51,180,55;
         --color-badge-border: 255,255,255;
         --payment-terms-background-color: rgb(51 180 55);
-      
-      }
+     }
+      .n-columns-2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-weight: 700;
+	}
 	.n-columns-2 a {
     text-align: center;
 	}
@@ -234,6 +238,7 @@ Shopify.routes.root = "/";</script>
 	50% { opacity: 0;
 	}
 	}
+     
 
       body, .color-scheme-1, .color-scheme-2, .color-scheme-3, .color-scheme-4, .color-scheme-5 {
         color: rgba(var(--color-foreground), 0.75);
